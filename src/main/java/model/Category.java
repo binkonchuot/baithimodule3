@@ -1,30 +1,27 @@
 package model;
 
 public class Category {
-    private int idCategory;
-    private String nameCategory;
+    private int idcategory;
+    private String namecategory;
 
-    public Category() {
+    public Category(int idcategory, String namecategory) {
+        this.idcategory = idcategory;
+        this.namecategory = namecategory;
     }
 
-    public Category(int idCategory, String nameCategory) {
-        this.idCategory = idCategory;
-        this.nameCategory = nameCategory;
+    public int getIdcategory() {
+        return idcategory;
     }
 
-    public int getIdCategory() {
-        return idCategory;
+    public void setIdcategory(int idcategory) {
+        this.idcategory = idcategory;
     }
 
-    public void setIdCategory(int idCategory) {
-        this.idCategory = idCategory;
+    public String getNamecategory() {
+        return namecategory;
     }
 
-    public String getNameCategory() {
-        return nameCategory;
-    }
-
-    public void setNameCategory(String nameCategory) {
-        this.nameCategory = nameCategory;
+    public void setNamecategory(String namecategory) {
+        this.namecategory = namecategory;
     }
 }

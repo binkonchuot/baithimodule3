@@ -5,32 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="385b1cc8-c308-4105-966e-ebc717c46142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ServletProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/creatProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/editProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/showProduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/css/bg-registration-form-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/css/creatForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ConnectionJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/createProduct.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ConnectMySql.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/TestModelDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/TestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/ServletProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/CategoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/CategoryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/baithimodule3-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/baithimodule3-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ServletProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/creatProduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/editProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/showProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/showProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/css/bg-registration-form-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/css/creatForm.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +79,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\IdeaProjects\BaiThiModule3\src\main\webapp\view" />
       <recent name="C:\Users\ADMIN\IdeaProjects\BaiThiModule3\src\main\webapp\view\css" />
       <recent name="C:\Users\ADMIN\IdeaProjects\BaiThiModule3\src\main\webapp" />
     </key>
@@ -180,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641434650961</updated>
-      <workItem from="1641434653102" duration="6660000" />
+      <workItem from="1641434653102" duration="10310000" />
     </task>
     <servers />
   </component>

@@ -1,49 +1,36 @@
 package model;
 
 public class Product {
+
     private int id;
     private String name;
-    private Double price;
-    private int quantily;
-    private String color;
-    private String description;
-    private int idCategory;
-    private String nameCategory;
+    private double price;
+    private int soluong;
+    private String mausac;
+    private String depcription;
+    private int idcategory;
+    private String namecategory;
 
-    public Product() {
-    }
 
-    public Product( String name, Double price, int quantily, String color, String description, int idCategory) {
+    public Product(int id, String name, Double price, int soluong, String mausac, String depcription, String namecategory) {
+
         this.id = id;
         this.name = name;
         this.price = price;
-        this.quantily = quantily;
-        this.color = color;
-        this.description = description;
-        this.idCategory = idCategory;
-        this.nameCategory = nameCategory;
+        this.soluong = soluong;
+        this.mausac = mausac;
+        this.depcription = depcription;
+        this.namecategory = namecategory;
     }
 
-    public Product(int id, String name, Double price, int quantily, String color, String description, String nameCategory) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
-        this.quantily = quantily;
-        this.color = color;
-        this.description = description;
-        this.idCategory = idCategory;
-        this.nameCategory = nameCategory;
-    }
+    public Product(String name, Double price, int soluong, String mausac, String depcription, int idCategory) {
 
-    public Product(int id, String name, Double price, int quantily, String color, String description) {
-        this.id = id;
         this.name = name;
         this.price = price;
-        this.quantily = quantily;
-        this.color = color;
-        this.description = description;
-        this.idCategory = idCategory;
-        this.nameCategory = nameCategory;
+        this.soluong = soluong;
+        this.mausac = mausac;
+        this.depcription = depcription;
+        this.idcategory = idCategory;
     }
 
     public int getId() {
@@ -62,51 +49,51 @@ public class Product {
         this.name = name;
     }
 
-    public Double getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public int getQuantily() {
-        return quantily;
+    public int getSoluong() {
+        return soluong;
     }
 
-    public void setQuantily(int quantily) {
-        this.quantily = quantily;
+    public void setSoluong(int soluong) {
+        this.soluong = soluong;
     }
 
-    public String getColor() {
-        return color;
+    public String getMausac() {
+        return mausac;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setMausac(String mausac) {
+        this.mausac = mausac;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDepcription() {
+        return depcription;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDepcription(String depcription) {
+        this.depcription = depcription;
     }
 
-    public int getIdCategory() {
-        return idCategory;
+    public int getIdcategory() {
+        return idcategory;
     }
 
-    public void setIdCategory(int idCategory) {
-        this.idCategory = idCategory;
+    public void setIdcategory(int idcategory) {
+        this.idcategory = idcategory;
     }
 
-    public String getNameCategory() {
-        return nameCategory;
+    public String getNamecategory() {
+        return namecategory;
     }
 
-    public void setNameCategory(String nameCategory) {
-        this.nameCategory = nameCategory;
+    public void setNamecategory(String namecategory) {
+        this.namecategory = namecategory;
     }
 }
